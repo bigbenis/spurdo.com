@@ -1,0 +1,24 @@
+/*для начала в каталоге пришлось создать файл .htaccess и прописать в нем AddType application/x-httpd-php .css*/
+<?php header('Content-type: text/css'); ?>  /*эту ебалу добавить, чтобы пхп обрабатывался в css*/
+h1 {
+	height: auto;
+	width: 100%;
+	padding: 40px 0 40px 0;
+	font-size: 20pt;
+	color: #339966;
+}
+
+h2 {	
+	height: auto;
+	width: 148%;
+	padding: 80px 0 80px 0;
+	font-size: 26pt;
+	color: #339966;
+}
+
+body {
+	background: url(images/<?php echo rand(0,7); ?>.png) no-repeat center top; /*этот кусок кода генерит случайное число
+		и добавляет его к названию пикчи, 	но так как у меня пикчи просто называются 0.png, т.е. название и состоит из числа, 
+		то генерится название целиком*/
+	background-size: 30%; /*Слишком большие пикчи, надо бы подгонять под размер экрана*/
+}
