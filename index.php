@@ -4,15 +4,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>spurdo</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
-	<h2>ha-ha</h2>
-	<h1>benis</h1>
+	<h1>ha-ha</h1>
 	<audio id="sperde" preload ="auto" src ="sound/sperde.mp3"></audio>
-	<button id="sound">спёрдо</button>
+	<audio id="spurdo" preload ="auto" src ="sound/spurdo.wav"></audio>
+	<audio id="sparde" preload ="auto" src ="sound/sparde.wav"></audio>
+	<button class="buttonSound">СПУРДО</button>
+	<button class="buttonSound">СПАРДЕ</button>
+	<button id="updateButton">ОБНОВИТЬ</button>
 	<style type="text/css">
 		<?php $card1=0;
 		$card2=0;
@@ -72,6 +76,5 @@
 	<div id="liniya2"></div>
 	<div id="liniya3"></div>
 </div>
-	<button id="update">Обновить</button>
 </body>
 </html>
