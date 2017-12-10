@@ -15,7 +15,7 @@ $(document).ready(function() {
 
   $('#updateButton').on('click', function(){
     location.reload()
-    console.log(('хуй'));
+    console.log('хуй');
   });
 
 });

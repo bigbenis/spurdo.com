@@ -10,7 +10,6 @@
 </head>
 
 <body>
-	<h1>ha-ha</h1>
 	<audio id="sperde" preload ="auto" src ="sound/sperde.mp3"></audio>
 	<audio id="spurdo" preload ="auto" src ="sound/spurdo.wav"></audio>
 	<audio id="sparde" preload ="auto" src ="sound/sparde.wav"></audio>
