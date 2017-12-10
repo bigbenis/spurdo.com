@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>spurdo</title>
-	<link rel="stylesheet" type="text/css" href="/style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
@@ -12,7 +12,7 @@
 	<h2>ha-ha</h2>
 	<h1>benis</h1>
 	<audio id="sperde" preload ="auto" src ="sound/sperde.mp3"></audio>
-	<button>спёрдо</button>
+	<button id="sound">спёрдо</button>
 	<style type="text/css">
 		<?php $card1=0;
 		$card2=0;
@@ -71,6 +71,7 @@
 	<div id="liniya1"></div>
 	<div id="liniya2"></div>
 	<div id="liniya3"></div>
-	</body>
 </div>
+	<button id="update">Обновить</button>
+</body>
 </html>
